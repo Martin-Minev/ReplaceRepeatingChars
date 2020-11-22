@@ -20,7 +20,6 @@ namespace ReplaceRepeatingChars
                     Console.WriteLine(sb.ToString());
                     return;
                 }
-
                 if (input[startIndex] != input[startIndex + 1])
                 {
                     sb.Append(input[startIndex]);
@@ -31,7 +30,6 @@ namespace ReplaceRepeatingChars
                     startIndex++;
                 }
             }
-            
         }
     }
 }
